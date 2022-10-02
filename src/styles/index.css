@@ -1,12 +1,52 @@
+.base{
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    margin: auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
 
-/* 
+.isPurpleOn{
+    height: 550px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.stick{
+    width: 50px;
+    height: 120px;
+    background-color: black;
+    margin: auto;
+}
 
-*/
+.light{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.glow{
+    box-shadow: 0px 0px 20px 10px wheat;
+}
+
+.btn{
+    margin: 10px;
+    border-color: black;
+}
